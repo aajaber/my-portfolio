@@ -109,23 +109,20 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <UncontrolledDropdown nav>
-
-
-                  </UncontrolledDropdown>
+                  
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
+
                     <DropdownMenu>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Portfolio
+                      <DropdownItem to="/landing-page" tag={Link}>
+                        landing
                       </DropdownItem>
-                      <DropdownItem to="/" tag={Link}>
+                      <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   

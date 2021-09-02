@@ -109,7 +109,7 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">2</span>
+                          <span className="heading">3</span>
                           <span className="description">Jobs</span>
                         </div>
                         <div>
@@ -117,7 +117,7 @@ class Profile extends React.Component {
                           <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">53</span>
+                          <span className="heading">56</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
